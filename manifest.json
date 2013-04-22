@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Anti-Ego",
+  "description": "This extension removes the ego column from facebook.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://www.facebook.com/*","https://www.facebook.com/*","https://facebook.com/"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
